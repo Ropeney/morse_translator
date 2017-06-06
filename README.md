@@ -7,5 +7,5 @@ _Raspberry Pi_.
 ### Usage
 ```bash
 echo "This is a test string" | ./morse_translator
-_....................._..._...._......_._..._.__.
+_ .... .. ... / .. ... / ._ / _ . ... _ / ... _ ._. .. _. __.
 ```

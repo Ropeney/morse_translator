@@ -26,6 +26,7 @@ fn generate_morse_string(msg: String) -> String {
 
     for x in msg.chars() {
         morse.push_str(morse_code(x));
+        morse.push(' ');
     }
 
     morse
@@ -78,7 +79,7 @@ fn morse_code<'a>(character: char) -> &'a str {
         '8' => "___..",
         '9' => "____.",
 
-        ' ' => "...",
+        ' ' => "/",
         _ => ""
     }
 }
